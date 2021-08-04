@@ -16,6 +16,8 @@
     <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <link rel="stylesheet" href="./mobile.css">
     <title>Hyperspace</title>
 
@@ -35,7 +37,7 @@
                     <a href="./index.html">Home</a>
                     <a href="./about.html">About</a>
                     <a href="./services.html">Services</a>
-                    <a href="#">Career</a>
+                    <!-- <a href="#">Career</a> -->
                     <a href="#blackbg">Contact-us</a>
                     <a href="https://training.hspaceit.com:2096">Employee Login</a>
 
@@ -46,7 +48,7 @@
         <div class="marg">
 
             <!-- 100vh -->
-            <div class="aboutthings">
+            <div class="aboutthings" data-aos="fade-right"data-aos-duration="2000">
                 <div class="abouttext">
                     <h2>Welcome to Hyperspace </h2>
                     <p>Transform your business and manage risk with a global industry leader in cybersecurity
@@ -97,7 +99,7 @@
 
 
             </div>
-            <div class="aboutrest">
+            <div class="aboutrest"data-aos="fade-right"data-aos-duration="2000">
                 <h4>We are a Team of Application Security Researcher and Penetration Tester having vast of Industrial
                     Experience
                     with good knowledge in Vulnerability Assessment and Penetration Testing on Various domains like Web
@@ -106,7 +108,7 @@
 
                 <h4>We guarantee over 91% accuracy in every Penetration Testing engagement</h4>
             </div>
-            <div class="blog">
+            <div class="blog" data-aos="fade-left"data-aos-duration="2000">
                 <div class="blogtext">
 
                     <h2> Our Work Environment :</h2>
@@ -146,7 +148,7 @@
               <li><a href="./index.html">Home</a></li>
               <li><a href="./about.html">About</a></li>
               <li><a href="./services.html">Services</a></li>
-              <li><a href="#">Career</a></li>
+              <!-- <li><a href="#">Career</a></li> -->
               <li><a href="#contact">Contact-us</a></li>
               <!-- <li><a href="#">Employee Login</a></li> -->
             </ul>
@@ -154,7 +156,7 @@
           <div class="marg">
   
               <!-- 100vh -->
-              <div class="aboutthings">
+              <div class="aboutthings" data-aos="fade-right"data-aos-duration="2000">
                   <div class="abouttext">
                       <h2>Welcome to Hyperspace </h2>
                       <p>Transform your business and manage risk with a global industry leader in cybersecurity
@@ -205,7 +207,7 @@
   
   
               </div>
-              <div class="aboutrest">
+              <div class="aboutrest" data-aos="fade-right"data-aos-duration="2000">
                   <p>We are a Team of Application Security Researcher and Penetration Tester having vast of Industrial
                       Experience
                       with good knowledge in Vulnerability Assessment and Penetration Testing on Various domains like Web
@@ -214,7 +216,7 @@
   
                   <p>We guarantee over 91% accuracy in every Penetration Testing engagement</p>
               </div>
-              <div class="blog">
+              <div class="blog" data-aos="fade-right"data-aos-duration="2000">
                   <div class="blogtext">
   
                       <h2> Our Work Environment :</h2>
@@ -248,7 +250,7 @@
             
         </div>
 
-        <div class="blackbg" id="blackbg">
+        <div class="blackbg" id="blackbg" data-aos="fade-right"data-aos-duration="2000">
 
             <div class="contactForm">
                 <h3>Contact-us</h3>
@@ -290,20 +292,7 @@
 
         </div>
 
-    </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
 
     <footer class="main-footer">
         <div class="container">
@@ -361,7 +350,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12 column">
-                    <div class="copyright"><a href="#"> Hyperspaceitindia.pvt.ltd.</a> &copy; 2021 All Right Reserved
+                    <div class="copyright"><a href="#"> Hyperspace IT India Pvt. Ltd.</a> &copy; 2021 All Right Reserved
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 column">
@@ -375,7 +364,10 @@
     </div>
 
 
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
     <script>
         $(document).ready(function () {
