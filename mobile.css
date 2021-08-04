@@ -65,7 +65,7 @@
 
     .header .menu-icon {
         cursor: pointer;
-        display: inline-block;
+        display: block;;
         float: right;
         padding: 28px 20px;
         position: relative;
@@ -237,14 +237,14 @@
     .yent{
         padding: 10px;
     }
-    .twohalf{
+    .twohalf1{
         padding: 20px;
         display: grid;
         grid-template-columns: auto;
         text-align: left;
     }
-    .twohalf h3{
-        text-align: center;
+   .twohalf1 h3{
+        /* text-align: center; */
     }
 
 /* footer */
@@ -261,5 +261,8 @@
 .container1{
    display: grid;
 }
+
+
+
 
 }
