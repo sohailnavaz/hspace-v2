@@ -1,0 +1,237 @@
+.aboutthings {
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: 45% auto;
+    gap: 10px;
+    margin-bottom: 2%;
+}
+
+.aboutrest {
+    text-align: center;
+    margin-top: 2%;
+}
+
+/* blog */
+.blog {
+    display: grid;
+    grid-template-columns: 40% auto;
+    grid-column-gap: 100px;
+}
+
+.blogtext p {
+    font-size: 16px;
+}
+
+.aboutthings ul {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+
+.aboutthings li {
+    text-align: center;
+    display: inline-block;
+    list-style: none;
+    position: relative;
+    border: solid 12px #fff;
+    background: #fff;
+    box-shadow: 0 0 15px 0px #555;
+    transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    top: 50px;
+}
+
+
+.aboutthings li:hover {
+    top: 0px;
+    opacity: 0.5;
+}
+
+.aboutthings li:nth-child(1) {
+    transform: rotate(10deg);
+}
+
+.aboutthings li:nth-child(2) {
+    transform: rotate(0deg);
+}
+
+.aboutthings li:nth-child(3) {
+    transform: rotate(-10deg);
+}
+
+/* li:nth-child(4){
+      transform:rotate(20deg);
+  } */
+
+p {
+    margin: -15px 0 0 0;
+}
+
+.light {
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 400px;
+    height: 400px;
+    background: #fff;
+    filter: blur(100px);
+    opacity: 0.3;
+    pointer-events: none;
+}
+
+.ser ul {
+
+    list-style-type: square;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.ser a {
+    color: #1f1f1f;
+    padding: 10px;
+    font-size: 18px;
+}
+.contactForm {
+    width: calc(100% - 20px);
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+
+.blackbg{
+    background-color: #1f1f1f;
+    border-radius: 2px;
+    padding-bottom: 20px;
+}
+.blackbg h3{
+    color: white;
+    padding-top: 20px;
+
+}
+/* STYLES FOR FORM */
+form {
+    width: 100%;
+    display: grid;
+    grid-gap: 30px;
+    padding-top: 20px;
+
+}
+
+.inputGroup {
+    width: 100%;
+    position: relative;
+}
+
+  .inputGroup1 {
+      grid-column: 1;
+      grid-row: 1;
+  }
+  .inputGroup2 {
+      grid-column: 2;
+      grid-row: 1;
+  }
+  .inputGroup3 {
+      grid-column: 1;
+      grid-row: 2;
+  }
+  .inputGroup4 {
+      grid-column: 2;
+      grid-row: 2;
+  }
+  .inputGroup5 {
+      grid-column: 1 / span 2;
+      grid-row: 3;
+  }
+  .inputGroup6 {
+      grid-column: 1 / span 2;
+      grid-row: 4;
+  }
+  .inputGroup7 {
+      grid-column: 2;
+      grid-row: 5;
+      text-align: right;
+  }
+
+
+.inputGroup__textfield {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%;
+    font-size: 13px;
+    padding: 20px;
+    border: 1px solid #FFF;
+    outline: 0;
+    border-radius: 0;
+    transition: border 0.3s ease-in-out;
+
+}
+  .inputGroup__textfield:focus, .inputGroup__textfield:active {
+      border: 1px solid #D9D9D9;
+  }
+
+
+button {
+    padding: 10px;
+    width: 50%;
+    border: 0;
+    background: #fff;
+    cursor: pointer;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 5px 10px 0 rgba(255, 255, 255, 0.1);
+    margin-bottom: 20px;
+}
+
+  button:hover {
+      background: #0090D6;
+      color: white;
+      box-shadow: 0px 10px 30px 0 rgba(255, 255, 255, 0.2);
+  }
+
+
+/* STYLES FOR VALIDATION WARNING */
+.hf-warning {
+    position: absolute !important;
+    top: 0 !important;
+    right: 0 !important;
+    transform: translate(-15%, -50%) !important;
+    background: orangered !important;
+    display: inline-block !important;
+    padding: 7px 14px !important;
+    color: #FFFFFF !important;
+    font-size: 11px !important;
+    font-family: sans-serif;
+    box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.1) !important;
+    border: 0 !important;
+    border-radius: 2px !important;
+}
+
+  .hf-warning:after {
+      content: "";
+      width: 10px;
+      height: 10px;
+      background: orangered;
+      position: absolute;
+      z-index: 1;
+      bottom: -5px;
+      right: 15px;
+      transform: rotate(45deg);
+  }
+
+
+@media screen and (max-width: 480px) {
+    form {
+      display: flex !important;
+      flex-wrap: wrap;
+    }
+
+    form > div {
+      margin-bottom: 30px;
+    }
+}
