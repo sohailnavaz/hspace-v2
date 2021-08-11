@@ -24,7 +24,7 @@ body {
 }
 
 .topnav img {
-  padding-left: 3vw;
+  padding-left: 7vw;
 }
 
 .navthings a {
@@ -181,7 +181,7 @@ body .container1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
+  
   max-width: 100%;
   margin: 40px 0;
 }
@@ -579,3 +579,4 @@ ul {
 .logo-box img {
   max-width: 220px;
 }
+
