@@ -55,6 +55,7 @@ body {
 
 .nav-item .nav-link {
   padding-top: 0px;
+  padding-bottom: 0px;
 }
 .nav-item{
   padding: 0px;
@@ -167,7 +168,9 @@ div#slider figure {
 .white-bg a:hover {
   color: #fff;
 }
-
+.dropdown-item a{
+  background: #1f1f1f;
+}
 .twoblocks {
   display: grid;
   grid-template-columns: 30% auto;
