@@ -1,4 +1,4 @@
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 601px) {
     .topp {
         display: none;
     }
@@ -203,7 +203,7 @@
         margin: 5%;
     }
 
-    .ser2 {
+ .ser2 {
         display: grid;
         grid-template-columns: auto;
         padding: 5px;
